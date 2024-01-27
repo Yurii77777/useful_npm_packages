@@ -10,12 +10,14 @@ const randomize = require('randomatic');
 // ?: Custom characters (pass a string of custom characters to the options)
 
 // Генерація унікальних інвойсів для оплати
+// Generate unique invoices for payment
 // for (let i = 0; i < 10; i++) {
 //   const invoice = randomize('aA0', 34);
 //   console.log('[invoice]', invoice);
 // }
 
 // Генеруємо цифрови код підтвердження облікового запису
+// Generate a digital account verification code
 for (let i = 0; i < 10; i++) {
   const code = randomize('0', 6);
   console.log('[code]', code);
